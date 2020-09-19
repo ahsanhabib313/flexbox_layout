@@ -1,0 +1,123 @@
+/*Project Name: Flex Box Layout
+  Project Author: Sheikh Ahsan Habib
+  Date: 24/08/2020
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color:#30480C ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+   
+}
+
+header nav ul li a{
+    color: #ECF3D4;
+    margin-left: 10px;
+}
+#logo{
+    color: #ECF3D4;
+    font-size: 20px;
+    
+}
+
+#header-icon ul li a{
+    color: #ECF3D4;
+    margin-right: 10px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+#main aside{
+    flex-basis: 25%;
+    padding: 15px;
+    background-color:#F2F0D9 ;
+}
+#main aside ul li a{
+    display: block;
+    color: #686D4F;
+    padding: 10px 0;
+    border-bottom: 1px solid #E3E1CA;
+}
+#main aside img{
+    margin-top: 10px;
+    width: 100%;
+}
+#main article{
+    flex-basis: 75%;
+    padding: 10px;
+
+}
+#main article h2{
+    padding: 10px 0;
+}
+#main article p{
+    text-align: justify;
+    padding: 5px 0;
+}
+#main article .content-section{
+    display: flex;
+    justify-content: space-between;
+}
+#main article .content-section .content-box{
+    width: 32%;
+    border: 2px solid #faf9f9;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#main article .content-section .content-box img{
+    width: 100%;
+}
+#main article .content-section .content-box h3{
+    padding: 15px 0;
+}
+
+#main article .content-section .content-box a {
+	display: block;
+	font-size: 15px;
+    color: #fff;
+    border: 1px solid transparent;
+	background: grey;
+	width: 95px;
+	text-align: center;
+	padding: 9px 0px;
+	align-self: flex-start;
+    margin-top: auto;
+    transition: all ease 1s;
+}
+#main article .content-section .content-box a:hover{
+    border: 1px solid grey;
+    background-color: transparent;
+    color: grey;
+}
+footer{
+    background-color: #37440E;
+    padding: 13px 0;
+    text-align: center;
+    color: #ECF3D4;
+    font-size: 20px;
+}
